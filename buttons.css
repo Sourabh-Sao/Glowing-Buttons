@@ -1,0 +1,50 @@
+body{
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: rgb(14, 14, 14);
+    color: white;
+    font-size: 1.5rem;
+    width: 30vw;
+    min-width: 100px;
+    max-width: 15vw;
+    height: 100px;
+    font-weight: 600;
+    border-radius: 100px;
+    padding: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.first,.second,.third{
+    border: 2px solid black;
+}
+
+.first:hover{
+    border-color: white;
+    transform: scale(1.2);
+    filter: drop-shadow(1px 1px 60px rgb(15,45,109));
+    background:linear-gradient(to bottom,rgb(3,14,31),rgb(15,45,109));
+}
+
+.second:hover{
+    border-color: white;
+    transform: scale(0.78);
+    filter: drop-shadow(1px 1px 50px rgb(248,77,220));
+    background: linear-gradient(to bottom,rgb(32,3,27),rgb(92,14,79));
+}
+
+.third:hover{
+    border-color: white;
+    color: black;
+    font-size:1rem ;
+    background: linear-gradient(to bottom,rgb(167,18,63),rgb(94,16,81));
+
+
+}
